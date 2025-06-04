@@ -135,7 +135,7 @@ zahy-films/
 │   ├── 📁 sebtiment-service-flask/          
 │   └── 📁 eureka/               # Service discovery
 ├── 📁 frontend/                 # Angular application
-│   ├── 📁 src/            # User management & auth
+│   ├── 📁 src/           
 │        ├── 📁 app/          
 │        ├── 📁 assets/   
 │        ├── 📁 environements/   
@@ -354,7 +354,14 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - **Academic Year**: 2024/2025
 
 ---
+👥 Team
+This project was developed by talented students from ENSAJ (École Nationale des Sciences Appliquées d'El Jadida):
+AMERGA Younes
+TAGHTI Zineb 
+LALHOU Asmae
+SABROU Hafsa
 
+---
 ## 🙏 Acknowledgments
 
 Special thanks to:
