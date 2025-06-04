@@ -127,18 +127,19 @@ graph TB
 ```
 zahy-films/
 ├── 📁 backend/
-│   ├── 📁 user-service/         # User management & auth
-│   ├── 📁 video-service/        # Video streaming & storage
-│   ├── 📁 comment-service/      # Social interactions
-│   ├── 📁 notification-service/ # Async notifications
-│   ├── 📁 api-gateway/          # Request routing
-│   └── 📁 eureka-server/        # Service discovery
+│   ├── 📁 ServiceAuth/            # User management & auth
+│   ├── 📁 service-video/          # Video streaming & storage
+│   ├── 📁 service-commentaire/    # Social interactions
+│   ├── 📁 service-notification/   # Async notifications
+│   ├── 📁 apigateway/             # Request routing
+│   ├── 📁 sebtiment-service-flask/          
+│   └── 📁 eureka/               # Service discovery
 ├── 📁 frontend/                 # Angular application
-├── 📁 recommendation-service/   # Python ML service
-├── 📁 docker/                   # Docker configurations
-├── 📁 docs/                     # Documentation
-├── 📁 scripts/                  # Deployment scripts
-└── 📄 docker-compose.yml        # Multi-container setup
+│   ├── 📁 src/            # User management & auth
+│        ├── 📁 app/          
+│        ├── 📁 assets/   
+│        ├── 📁 environements/   
+
 ```
 
 ---
@@ -149,7 +150,7 @@ zahy-films/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/zahy-films.git
+git clone https://github.com/Younessamg/PFA_II_ZAHY_Films.git
 cd zahy-films
 
 # Start all services with Docker Compose
@@ -168,7 +169,7 @@ node --version    # Should be 16+
 python --version  # Should be 3.8+
 
 # Clone and setup
-git clone https://github.com/your-org/zahy-films.git
+git clone git https://github.com/Younessamg/PFA_II_ZAHY_Films.git
 cd zahy-films
 
 # Quick start script
@@ -198,7 +199,7 @@ chmod +x scripts/quick-start.sh
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/your-org/zahy-films.git
+git clone https://github.com/Younessamg/PFA_II_ZAHY_Films.git
 cd zahy-films
 ```
 
@@ -345,16 +346,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ---
 
-## 👥 Team
-
-This project was developed by talented students from **ENSAJ (École Nationale des Sciences Appliquées d'El Jadida)**:
-
-| Name | Role | GitHub | Email |
-|------|------|---------|-------|
-| **Asmae LAHLOU** | Full-Stack Developer | [@asmae-lahlou](https://github.com/asmae-lahlou) | asmae.lahlou@ensaj.ma |
-| **Zineb TAGHTI** | Backend Developer | [@zineb-taghti](https://github.com/zineb-taghti) | zineb.taghti@ensaj.ma |
-| **Hafsa SABROU** | Frontend Developer | [@hafsa-sabrou](https://github.com/hafsa-sabrou) | hafsa.sabrou@ensaj.ma |
-| **Younes AMERGA** | DevOps Engineer | [@younes-amerga](https://github.com/younes-amerga) | younes.amerga@ensaj.ma |
 
 ### 🎓 Academic Supervision
 - **Supervisor**: Prof. Chafik BAIDADA
@@ -374,15 +365,6 @@ Special thanks to:
 
 ---
 
-## 📞 Support & Contact
-
-- 📧 **Email**: zahy-films-support@ensaj.ma
-- 💬 **Discord**: [Join our community](https://discord.gg/zahy-films)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/your-org/zahy-films/issues)
-- 📖 **Documentation**: [Full Documentation](https://docs.zahy-films.com)
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
@@ -394,7 +376,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **⭐ Star this repository if you found it helpful!**
 
 Made with ❤️ by the ZAHY FILMS Team at ENSAJ
-
-[🔗 Website](https://zahy-films.com) • [📚 Docs](https://docs.zahy-films.com) • [🐦 Twitter](https://twitter.com/zahy_films)
-
 </div>
